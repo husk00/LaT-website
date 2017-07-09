@@ -1,0 +1,836 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTML5 Blank\n"
+"POT-Creation-Date: 2017-05-25 11:03+0200\n"
+"PO-Revision-Date: 2017-05-25 11:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:10
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:12
+msgid "Return home?"
+msgstr ""
+
+#: archive.php:7
+msgid "Archives"
+msgstr ""
+
+#: author.php:9
+msgid "Author Archives for "
+msgstr ""
+
+#: author.php:15
+msgid "About "
+msgstr ""
+
+#: author.php:42 loop.php:22 single.php:28
+msgid "Published by"
+msgstr ""
+
+#: author.php:43 loop.php:23 single.php:29
+msgid "Leave your thoughts"
+msgstr ""
+
+#: author.php:43 loop.php:23 single.php:29
+msgid "1 Comment"
+msgstr ""
+
+#: author.php:43 loop.php:23 single.php:29
+msgid "% Comments"
+msgstr ""
+
+#: author.php:62 loop.php:39 page.php:32 single.php:54 template-demo.php:32
+msgid "Sorry, nothing to display."
+msgstr ""
+
+#: category.php:7
+msgid "Categories for "
+msgstr ""
+
+#: comments.php:3
+msgid "Post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:18
+msgid "Comments are closed here."
+msgstr ""
+
+#: footer.php:6
+msgid "Powered by"
+msgstr ""
+
+#: functions.php:141
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:142
+msgid "Sidebar Menu"
+msgstr ""
+
+#: functions.php:143
+msgid "Extra Menu"
+msgstr ""
+
+#: functions.php:189
+msgid "Widget Area 1"
+msgstr ""
+
+#: functions.php:190 functions.php:201
+msgid "Description for this widget-area..."
+msgstr ""
+
+#: functions.php:200
+msgid "Widget Area 2"
+msgstr ""
+
+#: functions.php:266
+msgid "View Article"
+msgstr ""
+
+#: functions.php:327
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:330
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:336
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:336
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:418 functions.php:419
+msgid "HTML5 Blank Custom Post"
+msgstr ""
+
+#: functions.php:420
+msgid "Add New"
+msgstr ""
+
+#: functions.php:421
+msgid "Add New HTML5 Blank Custom Post"
+msgstr ""
+
+#: functions.php:422
+msgid "Edit"
+msgstr ""
+
+#: functions.php:423
+msgid "Edit HTML5 Blank Custom Post"
+msgstr ""
+
+#: functions.php:424
+msgid "New HTML5 Blank Custom Post"
+msgstr ""
+
+#: functions.php:425 functions.php:426
+msgid "View HTML5 Blank Custom Post"
+msgstr ""
+
+#: functions.php:427
+msgid "Search HTML5 Blank Custom Post"
+msgstr ""
+
+#: functions.php:428
+msgid "No HTML5 Blank Custom Posts found"
+msgstr ""
+
+#: functions.php:429
+msgid "No HTML5 Blank Custom Posts found in Trash"
+msgstr ""
+
+#: header.php:68
+msgid "¿Qué es LaT?"
+msgstr "What is laT?"
+
+#: header.php:71
+msgid "Proyectos"
+msgstr "Projects"
+
+#: header.php:74 index.php:198
+msgid "Actividades"
+msgstr "Events"
+
+#: header.php:77 index.php:244
+msgid "Quiénes somos"
+msgstr "Who we are"
+
+#: header.php:80 index.php:507
+msgid "Participa"
+msgstr "Join Us"
+
+#: index.php:19
+msgid ""
+"La T, <b>el Laboratorio de tecnopolíticas para el bien común</b>, es un "
+"centro de pensamiento y prácticas críticas sobre tecnología, subjetividad y "
+"sociedad. El laboratorio quiere ser un catalizador de proyectos y "
+"comunidades de investigación, desarrollo y prototipado tecnológico "
+"orientados a la transformación social y el bien común."
+msgstr ""
+"LaT, <b>the Laboratory of Technopolitics for the Common Good</b>, is a "
+"center for critical thinking and practices on technology, subjectivity and "
+"society. The laboratory seeks to foster projects and communities of "
+"research, development and technological prototyping oriented to social "
+"transformation and the common good. "
+
+#: index.php:33
+msgid "Territorio"
+msgstr "Territory"
+
+#: index.php:35
+msgid ""
+"LaT se encuentra en la 8a planta del edificio Mediatic, junto a la "
+"<b>Superilla del PobleNou</b>, un reciente experimento de ecología urbana y "
+"espacio público. El laboratorio está situado en el distrito de Sant Martí, "
+"en el <b>22@</b>, un área promovida como <b>distrito motor de la innovación "
+"tecnológica y del conocimiento en Barcelona</b>. Poblenou es un barrio con "
+"una fuerte tradición asociativa, con gran arraigo de colectivos makers, "
+"huertos urbanos y gran concentración de centros de investigación y formación "
+"y un fuerte tejido empresarial tecnológico."
+msgstr ""
+"LaT is located on the 8th floor of Mediatic, a building right by the "
+"<b>Poblenou's Super-block</b>, a recent experiment in urban ecology and "
+"public space in Barcelona. The laboratory is situated in the Sant Marti "
+"district, at the heart of the <b>22@</b>, an area promoted as the <b>motor "
+"of  technological and knowledge innovation  of the city</b>. PobleNou is a "
+"neighborhood with a strong tradition of associative organization, plenty of "
+"maker´s collectives, key research/education centers, and a strong presence "
+"of technology companies. "
+
+#: index.php:39
+msgid "Contexto tecnológico"
+msgstr "Technological Context"
+
+#: index.php:41
+msgid ""
+"Estamos al inicio de una <b>\"4ª revolución industrial\"</b> que "
+"reconfigurará, de lo molecular a lo global, las estructuras materiales de la "
+"realidad. Pero las tecnologías no son neutras: constituyen <b>formas de vida "
+"y campos de batalla</b> dominados por las corporaciones más poderosas del "
+"planeta. Frente a la visión y el diseño de tecnología hegemónicos, guiados "
+"por la búsqueda del <b>beneficio privado</b>, han surgido formas de "
+"<b>resistencia, re-apropiación y construcción de alternativas</b> "
+"tecnológicas orientadas a la <b>autonomía social, la sostenibilidad y el "
+"bien común</b>. LaT aspira a nutrir esas alternativas."
+msgstr ""
+"We are at the beginning of a <b>“4th Industrial Revolution”</b> which will "
+"reassemble material structures, from the molecular to a global level. "
+"However, technologies are not neutral: they constitute <b>forms of life and "
+"fields of struggle</b> dominated by the most powerful companies in the "
+"world. In opposition to an hegemonic, <b>for-profit</b> perspective and "
+"design of technologies, new new forms of <b>resistance have emerged, "
+"reappropriation and construction of technological alternatives</b> with a "
+"strong orientation to <b>social autonomy, sustainability and the Common "
+"Good</b>. LaT is meant to nourish such initiatives."
+
+#: index.php:45
+msgid "Visión"
+msgstr "Vision"
+
+#: index.php:47
+msgid ""
+"En LaT queremos ser un <b>ateneu de experimentación tecnopolítica</b> que "
+"sirva como catalizador de proyectos y comunidades de investigación, "
+"desarrollo, prototipado y acción orientados al bien común. Trabajamos para "
+"<b>ser un proyecto de referencia en la construcción de visiones y prácticas "
+"críticas</b>. También aspiramos a construir un proyecto resiliente y "
+"sostenible a largo plazo. Para lograrlo interpelamos y orientamos nuestras "
+"actividades a comunidades, colectivos y personas apasionadas por las "
+"tecnologías y la transformación social."
+msgstr ""
+"LaT envisions to be a <b>space of/for technopolitical experimentation</b> "
+"meant to foster projetcs and communities of research, development, "
+"prototyping and practices oriented to the Common Good. Our goal is to "
+"<b>become a project of reference on critical visions and practices</b>. We "
+"also aspire to build a resilient and sustainable project in the long term. "
+"Thus, our interpellation and focus rely on activities along with "
+"communities, collectives and people passionate about technologies and social "
+"transformation. "
+
+#: index.php:51
+msgid "Misión"
+msgstr "Mission"
+
+#: index.php:53
+msgid "LaT es un proyecto orientado a:"
+msgstr "LaT is a project oriented to:"
+
+#: index.php:57
+msgid ""
+"<b>Analizar y diagnosticar</b> críticamente los modos de producción y uso de "
+"tecnologías, hoy."
+msgstr ""
+"Critically <b>analyze and diagnose forms</b> of production and use of "
+"technologies nowadays."
+
+#: index.php:60
+msgid ""
+"<b>Explorar nuevas tendencias</b> en la intersección entre tecnologías, "
+"subjetividad y sociedad."
+msgstr ""
+"<b>Explore new trends</b> in the intersection between technologies, "
+"subjectivity and society."
+
+#: index.php:63
+msgid ""
+"Promover proyectos de <b>pensamiento, investigación, prototipado y diseño "
+"de</b> tecnologías libres para el bien común."
+msgstr ""
+"Promote projects that <b>think, research, prototype and design</b> free "
+"technologies for the Common Good."
+
+#: index.php:66
+msgid ""
+"<b>Potenciar redes y comunidades</b> tecnopoliticas de aprendizaje, "
+"conocimiento y acción."
+msgstr ""
+"<b>Foster technopolitical networks and communities</b> focused on learning, "
+"knowledge and action. "
+
+#: index.php:69
+msgid ""
+"<b>Contribuir al bien común</b> de su entorno próximo, Poble Nou, Barcelona "
+"y el planeta."
+msgstr ""
+"<b>To contribute for the Common Good</b> of its surroundings, that is, "
+"PobleNou neighborhood, Barcelona and the planet. "
+
+#: index.php:87
+msgid "Virtual Reality Hub (VRHub)"
+msgstr ""
+
+#: index.php:91
+msgid ""
+"Realidad Virtual aplicada a políticas públicas, bien común, cambio "
+"climático, género y arte"
+msgstr ""
+"Virtual Reality applied to public policies, the Common Good, Climate Change, "
+"Genre and Art"
+
+#: index.php:95
+msgid ""
+"VRHub: iniciativa destinada a concentrar talento, oportunidades y "
+"conocimiento en el campo de la Realidad Virtual desde un enfoque social."
+msgstr ""
+"VRHub: the initiative means to gather talents, opportunities and knowledge "
+"in the field of Virtual Reality, from a social point of view."
+
+#: index.php:98 index.php:125 index.php:152 index.php:179
+msgid "Inscríbete"
+msgstr ""
+
+#: index.php:102 index.php:183
+msgid "Coordinador"
+msgstr "Coordinator"
+
+#: index.php:103
+msgid "Oscar Marín"
+msgstr ""
+
+#: index.php:104 index.php:185
+msgid "Curador"
+msgstr "Curator"
+
+#: index.php:105 index.php:132
+msgid "Javier Toret"
+msgstr ""
+
+#: index.php:106 index.php:133 index.php:160 index.php:187
+msgid "Próximo evento"
+msgstr "Next event"
+
+#: index.php:107
+msgid "7 de julio"
+msgstr "July, 7"
+
+#: index.php:114
+msgid "Barcelona Futura"
+msgstr ""
+
+#: index.php:118
+msgid "Algo·ritmos del bien común. Diagramando la ciudad para nuestras nietas"
+msgstr ""
+"Algo·rhythms for the Common Good. Diagramming our granddaughters’ city."
+
+#: index.php:122
+msgid ""
+"Una llamada a imaginar futuros posibles para la ciudad y el municipalismo "
+"desde un enfoque tecnopolítica, transversal y de los comunes."
+msgstr ""
+"A call to imagine possible futures for the city and the Municipalism from a "
+"technopolitical, transversal and for-the-commons perspective. "
+
+#: index.php:129
+msgid "Coordinadores"
+msgstr "Coordinators"
+
+#: index.php:130
+msgid "Pablo DeSoto"
+msgstr ""
+
+#: index.php:130 index.php:132
+msgid "y"
+msgstr "and"
+
+#: index.php:130
+msgid "Jose Pérez de Lama"
+msgstr ""
+
+#: index.php:131 index.php:158
+msgid "Curadores"
+msgstr "Curators"
+
+#: index.php:132
+msgid "Antonio Calleja"
+msgstr ""
+
+#: index.php:134
+msgid "14 y 15 de julio"
+msgstr "July, 14 and 15"
+
+#: index.php:141
+msgid "Ciberfeminismo"
+msgstr "Cyberfeminism"
+
+#: index.php:145
+msgid ""
+"En las intersecciones entre género y tecnologías. Feminismos y ciberespacio."
+msgstr ""
+"On the intersection between Genre and Technologies. Feminisms and "
+"Cyberspace.  "
+
+#: index.php:149
+msgid ""
+"Pasado, presente, futuro: un ciclo para visibilizar espacios de acción "
+"ciberfeminista y facilitar la diversidad de género en campo tecnológico"
+msgstr ""
+"Past, present, future: a space for cyberfeminist protagonism and to "
+"facilitate genre diversity in the technological field"
+
+#: index.php:156
+msgid "Coordinadoras"
+msgstr "Coordinators"
+
+#: index.php:161
+msgid "9 de junio"
+msgstr "June, 9"
+
+#: index.php:172
+msgid "Tecnopolíticas del diseño y prácticas del hacer para el bien común."
+msgstr ""
+"Technopolitical Design and Practice: the maker-culture oriented to the "
+"Common Good. "
+
+#: index.php:176
+msgid ""
+"Makers de barrio: vamos a pensar, diseñar y construir herramientas y "
+"dispositivos para el entorno urbano como bien común"
+msgstr ""
+"Community makers: join us to think, to design and to build tools and devices "
+"for the urban surroundings and focused on the Common Good"
+
+#: index.php:187
+msgid "23 de junio"
+msgstr "June, 23"
+
+#: index.php:199
+msgid ""
+"La T es un nodo abierto, un lugar encuentro para compartir conocimiento y "
+"tiempo."
+msgstr "La T is an open node, a meeting point to share knowledge and time."
+
+#: index.php:200
+msgid ""
+"Cada jueves organizamos Beer2Peer charlas, presentaciones y actividades con "
+"una cerveza en la mano."
+msgstr ""
+"Each Thursday, we organize Beer2Peer: talks, speeches and activities with a "
+"beer on our hands."
+
+#: index.php:201
+msgid ""
+"Los viernes, a partir de las 18:30h: Sesiones de nuestros proyectos y "
+"presentaciones."
+msgstr ""
+"Every Friday, from 6:30pm: Sessions about LaT’s projects and presentations. "
+
+#: index.php:209
+msgid "Los Jueves: Beer2peer"
+msgstr "Every Thursday: Beer2Peer"
+
+#: index.php:210
+msgid ""
+"Todos los jueves, a partir de las 18.30, estaremos en LaT con distintos "
+"eventos en una lógica informal, acogedora y unas birras para amenizar. Los "
+"eventos irán cambiando a cada semana, con los TrendingTalks y CCC y el C-4:"
+msgstr ""
+"Every Thursday, from 6:30pm, LaT will hold different events with an informal "
+"and kind atmosphere and some beers to relax. We will switch events every "
+"week, alternating between Trending Talks, CCC and C-4:"
+
+#: index.php:213
+msgid ""
+"<b>TrendingTalks:</b> Conferencias con personas que pensamos que son "
+"relevantes en los ámbitos de interés de laT. Curadoria de laT."
+msgstr ""
+"<b>TrendingTalks:</b> Conferences by people we believe to be relevant in a "
+"diverse range of areas and topics of interest of LaT community. Curated by "
+"LaT."
+
+#: index.php:217
+msgid ""
+"<b>CCC / Compartiu coneximent colectiu:</b> invitaremos a un colectivo o "
+"varios colectivos, proyecto o red para que presenten su trabajo y los "
+"conocimientos sobre temas específicos. Curadoría de laT."
+msgstr ""
+"<b>CCC / Compartiu Coneximent Colectiu (Shared Collective Knowledge):</b> a "
+"collective or a group of collectives, projects or networks to present their "
+"work and share knowledge about a specific topic of interest of LaT "
+"community. Curated by LaT."
+
+#: index.php:221
+msgid ""
+"<b>C-4:</b> Ciencias - Comunes - Ciudades - Comunidades.\n"
+"              Seminario permanente de investigación colectiva sobre "
+"ciencias, tecnologías y transformación social.\n"
+"              Curadoria de Emmanuele Cozzo y Luce Prignano."
+msgstr ""
+"<b>C-4:</b> Science - Commons - Cities - Communities\n"
+"A permanent seminar for collective research on science, technologies and "
+"social transformation. Curated by Emmanuele Ecozzo and Luce Prignano."
+
+#: index.php:250
+msgid ""
+"LaT es un proyecto autónomo que nace de la colaboracion de tres actores: "
+"TecnopoliticaBCN, <a href=\"https://www.thoughtworks.com/\">Thoughtworks."
+"com</a> y <a href=\"http://tecnopolitica.net/\">Tecnopolitica.net/UOC</a>. "
+"Somos un grupo de personas apasionadas por las tecnologías y la "
+"transformación social."
+msgstr ""
+"LaT is an autonomous project born from the collaboration between three "
+"actors: TecnopoliticaBCN,  <a href=\"https://www.thoughtworks.com/"
+"\">Thoughtworks.com</a> and <a href=\"http://tecnopolitica.net/"
+"\">Tecnopolitica.net/UOC</a>. We are people who are passionate about "
+"technologies and social transformation."
+
+#: index.php:264
+msgid ""
+"Coordinador de laT. Curaduría de proyectos. Coordinación de líneas de "
+"investigación y desarrollo."
+msgstr ""
+"Coordinator of LaT. Project curator. Research and development coordinator."
+
+#: index.php:268
+msgid ""
+"Me gusta conectar y producir multiplicidades potentes entre filosofía, "
+"clínica, política, tecnología, comunicación, datos, redes, deseo y "
+"movimientos."
+msgstr ""
+
+#: index.php:280
+msgid "Project Manager"
+msgstr ""
+
+#: index.php:284
+msgid ""
+"Jurista, eterna estudiante de entornos digitales y cambio social. Me "
+"interesa\n"
+"                            todo lo que tiene que ver con la cultura "
+"digital, la soberanía tecnológica y el activismo social."
+msgstr ""
+"Jurist, eternal student of digital fields & social change. I’m interested in "
+"everything related to digital culture, technological sovereignty and social "
+"activism. "
+
+#: index.php:296
+msgid "Responsable de Comunicación. Equipo de Producción"
+msgstr "Communication and Production."
+
+#: index.php:300
+msgid ""
+"Si sale comunicación es por que me ha molado el arte del micro-relato, así, "
+"en redes;\n"
+"                            lo de la producción es accidental, como lo mejor "
+"que siempre pasa en la vida. Filólogo, activista y escritor."
+msgstr ""
+"If communication comes out, it’s because I love the art of micro-"
+"storytelling in social networks. The production part is accidental, such as "
+"all the best things that happen in life. Philologist, activist and writer."
+
+#: index.php:312
+msgid ""
+"Curaduría de proyectos y coordinación de líneas de investigación y "
+"desarrollo."
+msgstr "Research and development coordinator. Project curator. "
+
+#: index.php:316
+msgid "Investigador, IN3/UOC."
+msgstr "Researcher, IN3/UOC, Decidim Team. "
+
+#: index.php:327
+msgid "Equipo de producción y comunicación."
+msgstr "Production and Communication. "
+
+#: index.php:331
+msgid "Investigadora. Comunicación política y periodismo de datos."
+msgstr "Researcher. Political Communication and Data Journalism."
+
+#: index.php:342 index.php:476
+msgid "Equipo de comunicación."
+msgstr "Communication."
+
+#: index.php:346
+msgid ""
+"Periodista con interés práctico y teórico en ciencia de datos, activismo\n"
+"                            social y uso de la tecnología para el cambio "
+"social y el bien común."
+msgstr ""
+"Journalist with practical and theoretical interest in Data Science, Social "
+"Activism and the use of technology for social change and the common good."
+
+#: index.php:361
+msgid "Equipo de comunicación. Responsable de laT[le]."
+msgstr "Communication, laT[le]. "
+
+#: index.php:365
+msgid ""
+"Periodista optimista. Activista zen. Presentador TV. #CulturaDigital "
+"@tipstve Radio @scannerfm @350BCN"
+msgstr ""
+"Optimistic journalist ツ Activist zen  TV Presenter #DigitalCulture  "
+"@tipstve Radio.   @scannerfm    @350BCN "
+
+#: index.php:376
+msgid "Diseño gráfico."
+msgstr "Graphical design."
+
+#: index.php:380
+msgid "Prototipos de mobiliario de diseño abierto. Assoc Makea Tu Vida"
+msgstr "Open design furniture prototyping: Assoc Makea Tu Vida"
+
+#: index.php:391 index.php:407 index.php:441 index.php:492
+msgid "Equipo de comunicación/web"
+msgstr "Communication/Web"
+
+#: index.php:395
+msgid ""
+"Psicólogo y programador con ínfulas de activista. De vez en cuando\n"
+"                            intenta mejorar el mundo con escarceos en ONG’s."
+msgstr ""
+"Psychologist and programmer with an enthusiasm for activism. Once in a while "
+"he tries to make a better world by collaborating with NGOs. "
+
+#: index.php:411
+msgid ""
+"Permanentemente a caballo entre la ingeniería, la investigación y la "
+"cinematografía.\n"
+"                            Interesado en el impacto de las nuevas "
+"tecnologías en la sociedad y en el individuo, y fundamentalmente\n"
+"                            en las implicaciones de los avances en "
+"inteligencia artificial y big data."
+msgstr ""
+"Engineer and researcher. Interested in the impact of new technologies, esp. "
+"Artificial Intelligence and big data, in society and individuals."
+
+#: index.php:424
+msgid "Equipo de producción"
+msgstr "Production"
+
+#: index.php:428
+msgid ""
+"Me gusta innovar a través de la tecnología y ayudar a crear productos de "
+"software\n"
+"                            técnicamente excelentes que mejoran la vida "
+"humana. Valoro fuertes relaciones humanas basadas\n"
+"                            en la confianza y el respeto mutuo."
+msgstr ""
+"Software Project Manager. Interested in innovation by the means of "
+"technology and in software solutions of excellence made to improve people’s "
+"lives. She values human relations based on confidence and mutual respect. "
+
+#: index.php:445
+msgid ""
+"Ingeniero informático y entusiasta de la tecnología. Interesado en big "
+"data,\n"
+"                            código abierto y derechos digitales."
+msgstr ""
+"Software engineer and technology enthusiast. Interested in big data, open "
+"source and digital rights."
+
+#: index.php:460
+msgid "Equipo de Producción."
+msgstr "Production."
+
+#: index.php:464
+msgid ""
+"Surfeando entre saberes expertos y activistas, entre lo local y lo "
+"metropolit(ano).\n"
+"                            Produciendo para el común siempre que sea sexy y "
+"me aseguren que se puede liar parda ;)"
+msgstr ""
+"Surfing on expert knowledge and activism, between the local and the "
+"metropolis. Producing for the Commons whenever it is sexy."
+
+#: index.php:480
+msgid ""
+"Costurera: a veces con hilos otras en redes, con experiencia cosiendo en\n"
+"                            movimientos sociales y medios de comunicación."
+msgstr ""
+"A sewer: sometimes using sewing thread and sometimes, networks. With "
+"experience in sewing social movements and media."
+
+#: index.php:496
+msgid "Ingeniero informático y entusiasta de la tecnología."
+msgstr "Software engineer and technology enthusiast."
+
+#: index.php:510
+msgid "LaT es un espacio abierto a la participacion y la creacion colectiva."
+msgstr "LaT is open to your participation and the collective creation."
+
+#: index.php:511
+msgid "Por lo que hemos habilitado varias formas para que participes."
+msgstr "For now, we have a few options for you to join us."
+
+#: index.php:519
+msgid ""
+"Síguenos en las redes sociales, donde tendrás la info actualizada de los "
+"proyectos y del laboratorio."
+msgstr ""
+"Follow us on social networks, where you will find updated info of our "
+"projects and the laboratory."
+
+#: index.php:538
+msgid ""
+"Suscríbete a la <a href=\"https://docs.google.com/a/thoughtworks.com/forms/"
+"d/1syQDQdMd7JFu9MkSQB8a2KJSzLpxuXzN6CGSuv--Q0M/edit\">newsletter</a> de laT "
+"para que te llegue a tu mail toda la info del laboratorio."
+msgstr ""
+"Subscribe to LaT <a href=\"https://docs.google.com/a/thoughtworks.com/forms/"
+"d/1syQDQdMd7JFu9MkSQB8a2KJSzLpxuXzN6CGSuv--Q0M/edit\">newsletter</a> to get "
+"all relevant info at your e-mail box."
+
+#: index.php:545
+msgid ""
+"Sigue nuestros proyectos, que duran hasta diciembre. Si quieres participar y "
+"recibir las informaciones de alguno de los proyectos, aquí puedes "
+"suscribirte y empezar a formar parte de las distintas comunidades."
+msgstr ""
+"Follow our projects which will be active until December. If you would like "
+"to participate and to receive all information about any project, subscribe "
+"here and start to be part of our communities."
+
+#: index.php:552
+msgid ""
+"Si te has perdido alguna actividad, en <a href=\"https://www.youtube.com/"
+"channel/UCvUVC_bGvUiQecAt_HWEUQw\">laT/le</a> tienes todos los videos de "
+"nuestras actividades. También se retransmiten en directo por si no puedes "
+"venir."
+msgstr ""
+"In case you have missed any activity, you can find videos en <a href="
+"\"https://www.youtube.com/channel/UCvUVC_bGvUiQecAt_HWEUQw\">laT/le</a> so "
+"you get updated. LaT/le also livestreams the activities that take place in "
+"the laboratory."
+
+#: index.php:559
+msgid "Proponnos alguna actividad o proyecto"
+msgstr ""
+"You can also propose here any activity or project that you believe to "
+"resonate with LaT"
+
+#: index.php:565
+msgid "Nombre"
+msgstr "Name"
+
+#: index.php:577
+msgid "Mensaje"
+msgstr "Message"
+
+#: index.php:583
+msgid "Enviar"
+msgstr "Send"
+
+#: search.php:7
+#, php-format
+msgid "%s Search Results for "
+msgstr ""
+
+#: searchform.php:3
+msgid "To search, type and hit enter."
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: single.php:34
+msgid "Tags: "
+msgstr ""
+
+#: single.php:36
+msgid "Categorised in: "
+msgstr ""
+
+#: single.php:38
+msgid "This post was written by "
+msgstr ""
+
+#: tag.php:7
+msgid "Tag Archive: "
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "HTML5 Blank"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://html5blank.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "HTML5 Blank WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Todd Motto (@toddmotto)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://toddmotto.com"
+msgstr ""
+
+#~ msgid ""
+#~ "Me gusta conectar y producir multiplicidades variables e intensivas entre "
+#~ "filosofía,\n"
+#~ "                            clínica, política, tecnologia, comunicación, "
+#~ "datos, redes, deseo, movimientos, tecnopolítica. 15M. Globalrev.\n"
+#~ "                            Rebelcities. Comunes. GlobalSouth. "
+#~ "Investigador, psicólogo, activista y tecnólogo."
+#~ msgstr ""
+#~ "Researcher, psychologist, activist and technologist. \n"
+#~ "I like to connect and to produce powerful multiplicities between "
+#~ "philosophy, clinic, politics, technology, communication, data, networks, "
+#~ "desire and movements. "

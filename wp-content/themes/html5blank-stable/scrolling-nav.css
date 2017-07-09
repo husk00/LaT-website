@@ -1,0 +1,697 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-default {
+    background: transparent url("img/logo-lat-large.png") no-repeat;
+    background-size: 235px;
+    background-position: 6.25% 30px;
+    height: 300px;
+    border-color: transparent;
+}
+
+.header {
+    z-index: 1;
+}
+
+.gtrans {
+    position: fixed;
+    float: right;
+    width: 58.5%;
+    right: 0;
+    top: 0;
+    z-index: 1050;
+    color: white;
+    padding-right: 15px;
+    margin-top: 1.5%;
+    margin-right: 3%;
+    padding-left: 15px;
+}
+
+.gtrans-link {
+    color: white;
+}
+
+.navbar-header {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    min-height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+@media(min-width:10px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background 0s ease-in-out,padding 0s ease-in-out;
+        -moz-transition: background 0s ease-in-out,padding 0s ease-in-out;
+        transition: background 0s ease-in-out,padding 0s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0 0 0 0;
+        background: #040409 url("img/logo-lat-small.png") no-repeat;
+        height: 70px;
+        background-size: auto 68.2%;
+        background-position: 5% center;
+    }
+
+    .top-nav-collapse .navbar-toggle {
+        margin-top: 18px;
+        border-color: transparent;
+    }
+}
+
+@media(min-width: 768px) {
+  .navbar-nav {
+    float: right;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-right: 3%;
+    width: 58.5%;
+    height: 70px;
+    /* For 5 sections: width: 58.5%; */
+  }
+}
+
+@media(max-width: 767px) {
+  .navbar-collapse.in {
+    overflow-y: visible;
+    float: right;
+  }
+
+  .navbar-collapse.collapsing {
+    overflow-y: visible;
+    float: right;
+    padding-left: 0px;
+  }
+
+  .top-nav-collapse .navbar-collapse.collapsing .navbar-nav {
+    margin-right: 15px;
+  }
+
+  .top-nav-collapse .navbar-collapse.in .navbar-nav {
+    margin-right: 15px;
+  }
+
+  .navbar-collapse.collapsing .navbar-nav {
+    height: initial;
+    width: 200px;
+    margin-right: -30px;
+    background-color: black;
+  }
+
+  .navbar-collapse.in .navbar-nav {
+    height: initial;
+    width: 200px;
+    margin-right: -30px;
+    background-color: black;
+  }
+
+  .top-nav-collapse .navbar-collapse.in .navbar-nav {
+    background-color: #040409;
+  }
+
+  .top-nav-collapse .navbar-collapse.collapsing .navbar-nav {
+    height: initial;
+    width: 200px;
+    background-color: #040409;
+  }
+
+  .navbar-collapse.collapsing .navbar-nav {
+    float: none;
+  }
+
+  .navbar-collapse.in .li-width {
+    width: 200px;
+    text-align: right;
+  }
+
+  .navbar-collapse.collapsing .li-width {
+    width: 200px;
+    text-align: right;
+  }
+
+  .navbar-collapse .collapsing {
+    overflow-y: hidden;
+    width: 200px;
+    float: right;
+    height: 0px;
+    overflow: hidden;
+    transition: height 2s;
+    -moz-transition: height 2s;
+    -webkit-transition: height 2s;
+    -o-transition: height 2s;
+  }
+}
+
+.top-nav-collapse .gtrans {
+  display: none;
+}
+
+.navbar-nav {
+    float: right;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-right: 3%;
+    width: 58.5%;
+    height: 70px;
+    /* For 5 sections: width: 58.5%; */
+}
+
+.top-nav-collapse .navbar-nav {
+  margin-top: 0px;
+}
+
+.navbar-collapse.collapse {
+  height: 70px !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar-collapse.collapsing {
+  height: 70px !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  overflow-y: visible;
+}
+
+.li-width {
+  width: 19%;
+  height: 70px;
+  display: table !important;
+  text-overflow: ellipsis;
+}
+
+.page-scroll {
+  display: table-cell !important;
+  vertical-align: middle;
+  word-break: normal;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #1FC8AF;
+}
+
+.navbar-default {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    text-align: center;
+    background: black;
+    z-index: 5;
+    position: relative;
+}
+
+.about-section {
+    display: table;
+    min-height: 100%;
+    text-align: center;
+    background: black;
+    color: white;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.services-section {
+    display: table;
+    min-height: 100%;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.actividades-section {
+    display: table;
+    min-height: 100%;
+    text-align: center;
+    background: white;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.who-are-we-section {
+    display: table;
+    min-height: 100%;
+    text-align: center;
+    background: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.participa-section {
+    display: table;
+    min-height: 100%;
+    text-align: center;
+    background: white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: table;
+    min-height: 100%;
+    text-align: center;
+    background: #eee;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+.fullscreen-bg {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.fullscreen-bg__video {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.centered-t {
+    display: table;
+    display: none;
+}
+
+.inverted {
+    color: white;
+}
+
+.centered {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.blended {
+  background-color: #f4f4f4;
+  background-blend-mode: multiply;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+p {
+  margin: 0 0 0 0;
+}
+
+.central-column {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.central-column-no-padding {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.padding-5 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.no-padding {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+a:hover {
+    color: #1FC8AF;
+}
+
+.bigger-font {
+  font-size: 21px;
+}
+
+.biggest-font {
+  font-size: 38px;
+}
+
+.smaller-font {
+  font-size: 15px;
+}
+
+.lighter-font {
+  font-weight: 100;
+}
+
+.row {
+  width: 100%;
+}
+
+.normal-font {
+  font-size: 16px;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+.right-side {
+  margin-left: auto;
+}
+
+.h-centered {
+  display: block;
+  margin: 0 auto;
+}
+
+.some-spacing {
+  height: 50px;
+}
+
+.some-mid-spacing {
+  height: 54px;
+}
+
+.some-minor-spacing {
+  height: 25px;
+}
+
+.some-very-minor-spacing {
+  height: 10px;
+}
+
+.centering-helper {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.margin-50 {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.margin-40 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #1FC8AF;
+    background-color: #040409;
+}
+
+.white-over-black {
+  background-color: transparent;
+  color: black;
+  border-color: #1FC8AF;
+  border-width: 1px;
+  border-style: solid;
+  width: 50%;
+  padding: 5px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+button {
+  text-align: left;
+  background-color: #1FC8AF;
+  color: white;
+  border-style: none;
+  padding: 5px;
+}
+
+.evofc_months_strip {
+  width: 100% !important;
+}
+
+.evofc_month_focus {
+  width: 100% !important;
+}
+
+.evofc_month.focus {
+  width: 100% !important;
+}
+
+.occupy-all {
+  margin: 0 0 0 0;
+}
+
+.evo_fc_day {
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  font-family: "Roboto Condensed", sans-serif !important;
+  text-transform: capitalize !important;
+  color: black !important;
+}
+
+.eventon_fc_days {
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+}
+
+.eventon_fc_daynames {
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  text-transform: capitalize !important;
+  font-weight: 300 !important;
+}
+
+.on_focus {
+  background-color: #e90065 !important;
+}
+
+.today::before {
+  background-color: #f55832 !important;
+  height: 8px !important;
+  margin-top: 0px !important;
+}
+
+.evo_month_title {
+  font-size: 27px !important;
+  font-weight: bold !important;
+  font-family: "Roboto Condensed", sans-serif !important;
+  text-transform: capitalize !important;
+  color: black !important;
+}
+
+.pink {
+  background-color: #e90065;
+}
+
+.padding-60 {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.top-padded {
+  padding-top: 50px;
+}
+
+.display-table {
+  display: table;
+}
+
+.max-height {
+  height: 615px;
+  margin: 0 auto;
+}
+
+.padding-bottom {
+  padding-bottom: 50px;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 30px;
+}
+
+.black-on-white {
+  background: #f4f4f4;
+  color: black;
+}
+
+.inverted-glyph {
+  filter: invert(100%);
+}
+
+.icon-array {
+  width: 126px;
+  margin: 0 auto;
+}
+
+div.navbar-header.page-scroll {
+  float: right;
+}
+
+.navbar-toggle {
+  z-index: 1100;
+  border: 0px;
+  margin-top: -15px;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: black;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+ul,li {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.grey-glyph {
+  filter: grayscale(100%) saturate(0%) brightness(70%) contrast(1000%);
+}
+
+.img-circle {
+    border-radius: 50px;
+}
+
+.ciberfeminismo-section {
+  width: 100%;
+  background-color: black;
+  min-height: 100%;
+  padding-top: 1px;
+}
+
+.full-page {
+  padding-top: 70px;
+}
+
+.always-collapsed {
+  padding: 0 0 0 0 !important;
+  background: #040409 url("img/logo-lat-small.png") no-repeat !important;
+  height: 70px !important;
+  background-size: auto 68.2% !important;
+  background-position: 5% center !important;
+}
+
+.higher {
+  margin-top: 10px;
+}
+
+.page {
+  padding-bottom: 75px;
+  color: black;
+}
+
+.one-column {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 50px;
+}
+
+.page p {
+  margin-bottom: 1em;
+}
+
+.page-title {
+  font-size: 42px;
+  color: black;
+}
+
